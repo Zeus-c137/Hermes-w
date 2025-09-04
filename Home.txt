@@ -1,0 +1,270 @@
+Home
+
+Hermes: The Financial Teleporter
+Hermes is where local money meets the global blockchain. We make it possible for anyone in Uganda (and beyond) to move seamlessly between mobile money and Ethereum, without needing technical know-how or heavy banking infrastructure.
+
+Instant Minting & Redemption
+Mint UGDX, our tokenized Ugandan shilling, directly from mobile money. Withdraw it back at any time. One tap, zero friction.
+
+Peer-to-Peer Freedom
+Send money instantly to friends, family, or businesses — across borders, networks, and wallets. No delays. No intermediaries.
+
+Utility & Merchant Payments
+Pay bills, shop online, and settle with local merchants using UGDX or stablecoins. Hermes is not just finance; it’s everyday life, teleported.
+
+Global Access
+Whether you’re funding your wallet from Airtel/MTN, or using an international card via partners like Lemon Squeezy, Hermes gives you options.
+
+Future-Proof
+From meta-transactions (gasless UX) to virtual cards that let you choose which token is “live” for online spending, Hermes is building the bleeding edge of money.
+
+FAQ
+
+1. What is UGDX?
+UGDX is a digital representation of the Ugandan shilling, minted and burned 1:1 against mobile money deposits. It’s your bridge to the Ethereum blockchain.
+
+2. How is Hermes different from other platforms like Yellow Card or Airtel Money?
+
+Yellow Card doesn’t support P2P transfers. Hermes does.
+
+Airtel is closed-loop. Hermes is open, borderless, and interoperable.
+
+We don’t just let you buy crypto; we let you live with it — pay bills, shop, and transact.
+
+3. What are meta-transactions?
+They’re transactions where Hermes pays your gas fees in the background. This means you don’t need to understand wallets, gas, or blockchain — just your phone number and balance.
+
+4. Can I recover my account if I lose my phone?
+Yes. Hermes supports aggressive recovery linked to your phone number and secure verification. If you’ve ever used mobile money or USSD, you’ll feel right at home.
+
+5. Do I need a bank account to use Hermes?
+No. Hermes is built around mobile-first economies. All you need is a phone number and mobile money access.
+
+Services
+
+Mobile Money ↔ Blockchain Teleportation
+Deposit shillings via Airtel or MTN, mint UGDX instantly, and redeem anytime.
+
+Peer-to-Peer Transfers
+Free and instant transfers of UGDX or stablecoins to anyone, anywhere.
+
+Utility & Merchant Payments
+Settle bills, airtime, and everyday purchases directly inside Hermes.
+
+International On-Ramps
+Fund your wallet with credit/debit cards through integrations like Lemon Squeezy.
+
+Reverse Swaps & Stablecoin Support
+Swap UGDX ↔ DAI, USDC, USDT, or any supported stablecoin instantly.
+
+Virtual Card
+Activate a virtual Hermes card, choose which token powers it, and spend globally online.
+
+Gasless UX
+Meta-transactions remove the blockchain learning curve. Hermes covers the fees.
+
+Developers
+
+Hermes isn’t just a wallet — it’s an infrastructure layer for Africa’s digital economy.
+
+Open APIs & SDKs
+Integrate UGDX minting, P2P, and swaps into your apps.
+
+Smart Contract Ready
+Already designed and deployed contracts for minting, settlement, and meta-transactions.
+
+Sandbox Access
+Test your integrations against our staging environments before going live.
+
+Docs & Tutorials
+Everything from onboarding via phone number, to initiating gasless transactions, to supporting multi-token wallets.
+
+Community Support
+Join the Hermes dev forum, where builders in Africa and beyond share tools and insights.
+
+Businesses
+
+Hermes is built for merchants, startups, and enterprises who want to tap into a new payments layer.
+
+Accept UGDX & Stablecoins
+Plug Hermes into your POS, e-commerce, or service platform.
+
+Instant Settlement
+No waiting days for bank transfers. Receive funds in real time.
+
+Mobile-First Integration
+Customers can pay you directly from their mobile phones.
+
+Cross-Border Expansion
+Accept payments from abroad via stablecoins and reverse swaps.
+
+Corporate Accounts
+Manage payroll, vendor payments, and treasury in UGDX or stablecoins.
+
+Developer-Friendly
+APIs and SDKs for easy merchant integration.
+
+
+
+
+
+Hero Section
+
+Headline:
+🚀 Hermes: The Financial Teleporter
+
+Subheadline:
+Seamlessly move between mobile money and the Ethereum blockchain. Send, spend, and swap — anywhere, anytime.
+
+CTA Buttons:
+
+[Get Started]
+
+[For Businesses]
+
+Visual Suggestion:
+Animated coin “teleportation” (UGX → UGDX → stablecoins).
+
+How It Works
+
+Headline:
+One App. Unlimited Possibilities.
+
+Step 1: Deposit from Airtel/MTN → Instantly mint UGDX.
+Step 2: Use UGDX for P2P, bills, shopping, swaps, merchants.
+Step 3: Redeem back to mobile money or spend globally with a virtual card.
+
+CTA:
+[Start Teleporting]
+
+Why Hermes?
+
+Headline:
+Not Just Another Wallet.
+
+Feature Highlights:
+
+⚡ Gasless UX – Meta-transactions cover blockchain fees.
+
+🌍 Global Access – Use stablecoins, or fund with international cards via Lemon Squeezy.
+
+🛒 Real Life Ready – Pay merchants, utilities, and shop online.
+
+🔐 Aggressive Recovery – Lost your phone? Recover via your number, just like mobile money.
+
+💱 Reverse Swaps – Instantly swap UGDX ↔ USDT/USDC/DAI.
+
+Services Section
+
+Headline:
+All-In-One Financial Layer.
+
+Mobile Money ↔ Blockchain Bridge
+
+Peer-to-Peer Transfers
+
+Utility & Merchant Payments
+
+International On-Ramps
+
+Stablecoin Swaps
+
+Virtual Hermes Card
+
+Gasless Transactions
+
+CTA:
+[Explore Services]
+
+For Developers
+
+Headline:
+Build on Hermes.
+
+Subheadline:
+Our infrastructure powers African digital money. Yours can too.
+
+🔌 Open APIs & SDKs
+
+⚙️ Smart Contracts Ready
+
+🧪 Sandbox Testing
+
+📖 Docs & Tutorials
+
+👥 Community Support
+
+CTA:
+[View Developer Docs]
+
+For Businesses
+
+Headline:
+Accept the Future of Payments.
+
+Subheadline:
+From corner shops to enterprises, Hermes helps you get paid in UGDX or stablecoins.
+
+Accept UGDX & Stablecoins
+
+Instant Settlement
+
+Mobile-First Integration
+
+Cross-Border Payments
+
+Payroll & Treasury Support
+
+CTA:
+[Get Hermes for Business]
+
+FAQ Section
+
+Headline:
+Questions? We’ve Got Answers.
+
+Top Qs:
+
+What is UGDX?
+
+How is Hermes different from Yellow Card/Airtel Money?
+
+Do I need a bank account?
+
+What happens if I lose my phone?
+
+What are meta-transactions?
+
+CTA:
+[View All FAQs]
+
+Closing Section
+
+Headline:
+Ready to Teleport Your Money?
+
+Subheadline:
+Hermes is building the bleeding edge of finance. Join us today.
+
+CTA Buttons:
+
+[Download Hermes]
+
+[Talk to Sales]
+
+Visual Suggestion:
+Bleeding-edge Hermes logo animation (like coins flowing into the “winged” Hermes icon).
+
+This layout gives you the full funnel:
+
+Hero grabs attention.
+
+How it Works shows simplicity.
+
+Why Hermes builds trust.
+
+Services, Developers, Businesses show depth.
+
+FAQ reduces doubt.
+
+Closing CTA converts.
