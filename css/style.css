@@ -2981,12 +2981,20 @@ Table of Contents
     .bringer-price-table ul.bringer-marked-list li:last-child {
         margin: 0;
     }
-    
+ .bringer-text-2{
+    color: var(--bringer-s-accent)
+ }
+ .ma p {
+    color: var(--bringer-s-accent);
+ }
+
+
     /* === FAQ List === */
     .bringer-faq-list {
         display: flex;
         flex-direction: column;
         gap: var(--stg-gap);
+        color: var(--bringer-s-text-accent);
     }
     .bringer-faq-list hr {
         margin-top: 0;
@@ -3000,10 +3008,12 @@ Table of Contents
     .bringer-toggles-item--title {
         display: block;
         position: relative;
+         color: var(--bringer-s-text-accent);
     }
     .bringer-toggles-item--title .bringer-label {
         margin: -4px 0 8px 0;
         display: block;
+         color: var(--bringer-s-text-accent);
     }
     .bringer-toggles-item--title sup {
         display: inline-block;
@@ -3011,6 +3021,7 @@ Table of Contents
         transform: translateY(-6px);
     }
     .bringer-toggles-item--title h4 {
+         color: var(--bringer-s-text-accent);
         margin-bottom: 4px;
         padding-right: 64px;
         display: flex;

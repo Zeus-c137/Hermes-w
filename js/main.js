@@ -51,6 +51,15 @@ jQuery(function ($) {
     // --- CUSTOM FUNCTION --- //
     function CustomFunction() {
         // Put your custom JS code here
+        const lenis = new Lenis();
+
+// Use requestAnimationFrame to continuously update the scroll
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
     }
 
     // --- RIGHT CLICK PROTECTION //
