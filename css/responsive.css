@@ -173,7 +173,7 @@
     .bringer-mobile-menu-toggler span {
         background: var(--bringer-s-accent);
         width: 22px;
-        height: 1px;
+        height: 4px;
         border-radius: 2px;
         display: block;
         position: absolute;

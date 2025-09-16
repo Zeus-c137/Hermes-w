@@ -3,16 +3,18 @@
  * Author URL: https://shadow-themes.com
  */
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
 /* ============
    COLOR SCHEME
 =============== */
 :root {
     /* Used as body background and overlays */
-    --bringer-s-body-bg: #f5fff2;
+    --bringer-s-body-bg: gradient(to bottom, #517d7d, #fefff0);
  
 
     /* Used as a background color for header, footer, and mobile navigation */
-    --bringer-s-nav: #fff;
+    --bringer-s-nav: #f0ffff;
 
     /* Used as a background color for block containers, sub-menus, and form inputs */
     --bringer-s-container-bg: #0fca15;
@@ -82,14 +84,14 @@
 :root {
     /* === FONT GROUPS === */
     /* Headings Font Family */
-    --bringer-t-heading-ff: 'Zen Dots', sans-serif;
+    --bringer-t-heading-ff: 'Rubik Marker Hatch', sans-serif;
     
     /* Headings Font Weight */
     --bringer-t-heading-fw: 600;
 
 
     /* Content Font Family */
-    --bringer-t-content-ff: 'Zen Dots', sans-serif;
+    --bringer-t-content-ff: 'zen dots', sans-serif;
 
     /* Content Font Weight */
     --bringer-t-content-fw: 400;
