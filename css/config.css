@@ -10,7 +10,7 @@
 :root {
     /* Awwwards-inspired dark monochrome with cyan accent */
     /* Used as body background and overlays */
-    --bringer-s-body-bg: linear-gradient(to right, transparent, rgba(220, 201, 243, 0.574), transparent); ; /* light background */
+    --bringer-s-body-bg: #f2f1ff ; /* light background */
 
     /* Used as a background color for header, footer, and mobile navigation */
     --bringer-s-nav: rgba(255, 255, 255, 0.75);
@@ -55,16 +55,16 @@
     --bringer-s-border-highlight: #0B0F1A33;
 
     /* Used as a color for a backlight effect */
-    --bringer-s-backlight: rgba(0, 0, 0, 0.06);
+    --bringer-s-backlight: transparent; /* no backlight */
 
     /* Used as a color for block shadow */
-    --bringer-s-box-shadow: rgba(17, 17, 17, 0.08);
+    --bringer-s-box-shadow: rgba(75, 65, 87, 0.08);
 
     /* The cursor-followed backlight color. It uses the primary backlight color */
     --bringer-s-cursor-light: #f6ebeb;
     
     /* A horizontal side-fade gradient border color */
-    --bringer-c-border-gradient: linear-gradient(to left, transparent, var(--bringer-s-border), transparent); 
+    --bringer-c-border-gradient: #0000004c; 
 
 
     /* Main menu text color */
