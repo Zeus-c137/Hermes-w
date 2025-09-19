@@ -2,80 +2,83 @@
  * Author: Shadow Themes
  * Author URL: https://shadow-themes.com
  */
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300..800&display=swap');
 /* ============
    COLOR SCHEME
 =============== */
 :root {
+    /* Awwwards-inspired dark monochrome with cyan accent */
     /* Used as body background and overlays */
-    --bringer-s-body-bg: gradient(to bottom, #517d7d, #fefff0);
- 
+    --bringer-s-body-bg: linear-gradient(to right, transparent, rgba(220, 201, 243, 0.574), transparent); ; /* light background */
 
     /* Used as a background color for header, footer, and mobile navigation */
-    --bringer-s-nav: #f0ffff;
+    --bringer-s-nav: rgba(255, 255, 255, 0.75);
 
     /* Used as a background color for block containers, sub-menus, and form inputs */
-    --bringer-s-container-bg: #0fca15;
+    --bringer-s-container-bg: rgba(248, 249, 251, 0.85);
 
     /* The same as the previous one but with transparency for frosted glass blocks */
-    --bringer-s-container-frosted: #e3f8fc;
+    --bringer-s-container-frosted: rgba(255, 255, 255, 0.853);
 
     /* Used as a color for headings, page titles, button labels, and other bright text accents */
-    --bringer-s-heading: #000000;
+    --bringer-s-heading: #0E0F12;
 
     /* It is the same as the previous one but with transparency. Used for labels, meta, and some hover effects */
-    --bringer-s-heading-fade: #0fca15e0;
+    --bringer-s-heading-fade: rgba(14, 15, 18, 0.6);
 
     /* Used as a color for general content */
-    --bringer-s-text: #000000;
+    --bringer-s-text: #2C2F36;
 
     /* A background color for accents, like buttons, highlighted blocks, etc. */
-    --bringer-s-accent: #0fca15;
+    --bringer-s-accent: #111111; /* black accent */
 
     /* A hovered button background color */
-    --bringer-button-hover-bg: #0fca15;
+    --bringer-button-hover-bg: #000000; /* darker */
 
     /* Used as a color for text accents */
-    --bringer-s-text-accent: #fff;
+    --bringer-s-text-accent: #111111;
 
     /* Used as a text color for accented blocks */
     --bringer-s-accented-text: #ffffff;
 
     /* Used as a primary border-color */
-    --bringer-s-border: #F5F7FA27;
+    --bringer-s-border: #0B0F1A14;
 
     /* Used as a border color for accented blocks */
-    --bringer-s-border-accent: #fff;
+    --bringer-s-border-accent: #111111;
     
     /* A default semi-transparent border color for blocks with a shining effect */
-    --bringer-s-border-mute: #F5F7FA0D;
+    --bringer-s-border-mute: #0B0F1A0D;
 
     /* A semi-transparent border shining effect color */
-    --bringer-s-border-highlight: #F5F7FA40;
+    --bringer-s-border-highlight: #0B0F1A33;
 
     /* Used as a color for a backlight effect */
-    --bringer-s-backlight: #eaf0fd12;
+    --bringer-s-backlight: rgba(0, 0, 0, 0.06);
 
     /* Used as a color for block shadow */
-    --bringer-s-box-shadow: #eaf0fd10;
+    --bringer-s-box-shadow: rgba(17, 17, 17, 0.08);
 
     /* The cursor-followed backlight color. It uses the primary backlight color */
-    --bringer-s-cursor-light: #0fca152a;
+    --bringer-s-cursor-light: #f6ebeb;
     
     /* A horizontal side-fade gradient border color */
     --bringer-c-border-gradient: linear-gradient(to left, transparent, var(--bringer-s-border), transparent); 
 
 
     /* Main menu text color */
-    --bringer-c-menu: var(--bringer-s-text);
+    --bringer-c-menu: var(--bringer-s-heading);
     
     /* Main menu hovered item text color */
-    --bringer-c-menu-hover: var(--bringer-s-heading);
+    --bringer-c-menu-hover: #000000;
 
     /* Main menu current item text color */
-    --bringer-c-menu-active: var(--bringer-s-heading);
+    --bringer-c-menu-active: #000000;
+    /* Header border radius (responsive) */
+    --bringer-header-br: clamp(8px, 12%, 20px);
+    /* Header max width (navbar width) */
+    --bringer-header-width: 1040px;
 }
 
 /* ==========
@@ -84,14 +87,14 @@
 :root {
     /* === FONT GROUPS === */
     /* Headings Font Family */
-    --bringer-t-heading-ff: 'Rubik Marker Hatch', sans-serif;
+    --bringer-t-heading-ff: 'Syne', sans-serif;
     
     /* Headings Font Weight */
-    --bringer-t-heading-fw: 600;
+    --bringer-t-heading-fw: 700;
 
 
     /* Content Font Family */
-    --bringer-t-content-ff: 'zen dots', sans-serif;
+    --bringer-t-content-ff: 'Sora', sans-serif;
 
     /* Content Font Weight */
     --bringer-t-content-fw: 400;
@@ -252,7 +255,7 @@
 ========================== */
 :root {
     /* Header vertical spacing */
-    --bringer-header-spacing: 16px;
+    --bringer-header-spacing: 6px;
 
     /* Main Menu items spacing */
     --bringer-menu-gap: 32px;
@@ -327,6 +330,7 @@
 @media only screen and (max-width: 1279px) {
     :root {
         --stg-container-width: 976px;
+        --bringer-header-width: 920px;
         
         --bringer-t-h1-fs: 64px;
         --bringer-t-h2-fs: 45px;
@@ -367,6 +371,7 @@
 /* === Mobile Menu === */
 @media only screen and (max-width: 960px) {
     :root {
+        --bringer-header-width: 590px;
         /* Main Menu Font Family */
         --bringer-t-menu-ff: var(--bringer-t-heading-ff);
 
@@ -406,6 +411,7 @@
 @media only screen and (max-width: 739px) {
     :root {
         --stg-container-width: calc( 100svw - 2 * var( --stg-gap ));
+        --bringer-header-width: calc( 100svw - 2 * var( --stg-gap ));
 
         --bringer-t-h1-fs: 48px;
         --bringer-t-h2-fs: 32px;
@@ -450,6 +456,14 @@
     --icon-arrow-left: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M24.001 11.092H3.453l9.828-9.812-1.28-1.281-12 12 12 12 1.28-1.28-9.828-9.812h20.548Z'/%3E%3C/svg%3E");
     --icon-arrow-right: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M0 11.092h20.548L10.72 1.28 12 0l12 12-12 12-1.28-1.28 9.828-9.812H0Z'/%3E%3C/svg%3E");
     --icon-cross: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='m17.076 19.436-7.077-7.077-7.077 7.077a1.668 1.668 0 0 1-2.359 0 1.668 1.668 0 0 1 0-2.359L7.639 10 .562 2.923a1.67 1.67 0 0 1 0-2.36 1.67 1.67 0 0 1 2.36 0L9.999 7.64 17.076.563a1.669 1.669 0 0 1 2.359 0 1.669 1.669 0 0 1 0 2.36L12.358 10l7.077 7.077a1.668 1.668 0 0 1 0 2.359 1.661 1.661 0 0 1-1.179.489 1.664 1.664 0 0 1-1.18-.489Z'/%3E%3C/svg%3E");
+
+    /* Menu icons */
+    --icon-merchant: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M2 6h16l-1.5 3H3.5L2 6Zm2 5h12v7H4v-7Zm2 2v3h8v-3H6Z'/%3E%3C/svg%3E");
+    --icon-card: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M2 4h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 3v2h16V7H2Zm4 5h6v2H6v-2Z'/%3E%3C/svg%3E");
+    --icon-onramp: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M10 1 5 6h3v5h4V6h3L10 1Zm-8 13h16v3H2v-3Z'/%3E%3C/svg%3E");
+    --icon-offramp: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M10 19l5-5h-3V9H8v5H5l5 5Zm-8-16h16V0H2v3Z'/%3E%3C/svg%3E");
+    --icon-swap: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M4 6h9l-2-2 1.4-1.4L17.8 8l-5.4 5.4L11 12l2-2H4V6Zm12 8H7l2 2-1.4 1.4L2.2 12l5.4-5.4L9 8l-2 2h9v4Z'/%3E%3C/svg%3E");
+    --icon-dev: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M7 5 1 10l6 5V12h6v3l6-5-6-5v3H7V5Z'/%3E%3C/svg%3E");
 
     --icon-creativity: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M8.023 28.999v-5.516a12.876 12.876 0 0 1-2.967-4.078 11.334 11.334 0 0 1-1.057-4.783A11.32 11.32 0 0 1 7.324 6.39a10.887 10.887 0 0 1 8.075-3.391 11.121 11.121 0 0 1 6.988 2.383 10.822 10.822 0 0 1 4 6.183l1.567 6.315a1.184 1.184 0 0 1-.213 1.063 1.158 1.158 0 0 1-.97.478h-2.656v4.368a2.406 2.406 0 0 1-.712 1.747 2.312 2.312 0 0 1-1.712.727h-2.94v2.736h-2.012V24.21h4.952a.4.4 0 0 0 .3-.118.414.414 0 0 0 .116-.3v-6.421h3.621l-1.274-5.3a8.9 8.9 0 0 0-3.3-5.07A9.19 9.19 0 0 0 15.4 5.058a9 9 0 0 0-6.639 2.775 9.23 9.23 0 0 0-2.749 6.749 9.462 9.462 0 0 0 .821 3.894 10.239 10.239 0 0 0 2.33 3.279l.872.82v6.424Zm7.846-11.973Zm-1.514 2.789h2.089l.15-1.487a3.06 3.06 0 0 0 .744-.3 2.156 2.156 0 0 0 .592-.486l1.31.618 1.044-1.813-1.161-.882a2.551 2.551 0 0 0 .144-.837 2.55 2.55 0 0 0-.144-.837l1.161-.882-1.044-1.813-1.31.618a2.161 2.161 0 0 0-.592-.486 3.06 3.06 0 0 0-.744-.3l-.15-1.487h-2.089l-.15 1.487a3.06 3.06 0 0 0-.744.3 2.161 2.161 0 0 0-.592.486l-1.31-.618-1.044 1.813 1.161.882a2.551 2.551 0 0 0-.144.837 2.551 2.551 0 0 0 .144.837l-1.161.882 1.044 1.813 1.31-.618a2.156 2.156 0 0 0 .592.486 3.06 3.06 0 0 0 .744.3Zm1.044-2.882a2.153 2.153 0 0 1-1.6-.672 2.246 2.246 0 0 1-.658-1.632 2.241 2.241 0 0 1 .658-1.63 2.156 2.156 0 0 1 1.6-.671 2.153 2.153 0 0 1 1.6.671 2.246 2.246 0 0 1 .658 1.632 2.242 2.242 0 0 1-.658 1.631 2.156 2.156 0 0 1-1.6.672Z'/%3E%3C/svg%3E");
     --icon-collab: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='m15.993 12.778-4.344-4.389 4.344-4.39 4.357 4.389ZM1.5 27.999v-5.235a2.373 2.373 0 0 1 .679-1.714 2.3 2.3 0 0 1 1.646-.729h4.259a2.428 2.428 0 0 1 1.186.309 2.5 2.5 0 0 1 .915.862 7.238 7.238 0 0 0 2.549 2.223 6.936 6.936 0 0 0 3.259.795 7.018 7.018 0 0 0 3.287-.795 7.036 7.036 0 0 0 2.535-2.223 2.908 2.908 0 0 1 .947-.862 2.306 2.306 0 0 1 1.141-.309h4.259a2.308 2.308 0 0 1 1.663.729 2.381 2.381 0 0 1 .675 1.714v5.235h-8.98v-3.283a9.072 9.072 0 0 1-2.588 1.4 8.909 8.909 0 0 1-2.939.487 8.773 8.773 0 0 1-2.908-.491 9.327 9.327 0 0 1-2.605-1.4v3.287Zm3.839-9.611a3.64 3.64 0 0 1-2.683-1.128 3.716 3.716 0 0 1-1.116-2.711 3.7 3.7 0 0 1 1.116-2.729 3.669 3.669 0 0 1 2.683-1.11 3.652 3.652 0 0 1 2.7 1.11 3.729 3.729 0 0 1 1.1 2.729 3.746 3.746 0 0 1-1.1 2.711 3.623 3.623 0 0 1-2.7 1.129Zm21.308 0a3.64 3.64 0 0 1-2.683-1.128 3.716 3.716 0 0 1-1.116-2.711 3.7 3.7 0 0 1 1.116-2.729 3.668 3.668 0 0 1 2.683-1.11 3.652 3.652 0 0 1 2.7 1.11 3.729 3.729 0 0 1 1.1 2.729 3.746 3.746 0 0 1-1.1 2.711 3.623 3.623 0 0 1-2.699 1.129Z'/%3E%3C/svg%3E");
